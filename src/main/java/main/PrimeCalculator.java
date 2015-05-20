@@ -3,6 +3,7 @@ package main;
 public class PrimeCalculator {
 
 	public static boolean isPrime(long number){
+		
 		if(number < 2){
 			return false;
 		}
